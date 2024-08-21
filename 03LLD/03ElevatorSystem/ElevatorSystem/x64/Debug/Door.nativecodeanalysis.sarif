@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/rm185559/onedrive - ncr voyix/documents/rma6/myyt/c_cpp_projects/lld_hld/03lld/101elevatorsystem/elevatorsystem/door.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "e20c9afd1c99331c9b16a84d86a301a9cd0c53d875db41a6d31590aa3a8ae582"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/rm185559/onedrive - ncr voyix/documents/rma6/myyt/c_cpp_projects/lld_hld/03lld/101elevatorsystem/elevatorsystem/door.hxx"
+          },
+          "hashes": {
+            "sha-256": "8bd4864f01c7ac3e782a760c925f0fc57747858a761fe935a13659bd1fa56681"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/rm185559/onedrive - ncr voyix/documents/rma6/myyt/c_cpp_projects/lld_hld/03lld/101elevatorsystem/elevatorsystem/constants.hxx"
+          },
+          "hashes": {
+            "sha-256": "7dacef18c7b16bb3d241a965331c7f98ed9016e4fe3262f816dba37447052390"
+          }
+        }
+      ]
+    }
+  ]
+}

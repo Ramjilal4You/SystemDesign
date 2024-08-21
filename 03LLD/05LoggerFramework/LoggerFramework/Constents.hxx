@@ -1,0 +1,5 @@
+#pragma once
+
+enum LOGLEVEL { ERROR, DEBUG, INFO };
+
+//enum SINK { CONSOLE, LOCALFILE, DATABASE };

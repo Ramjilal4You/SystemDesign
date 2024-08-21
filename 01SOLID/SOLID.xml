@@ -1,0 +1,6 @@
+SOLID Principles
+S --> Single Responcibility Principle   --> “A class should have only one reason to change”
+O --> Open Close Principle              --> “A classe or module should be open for extension, but closed for modification”
+L --> Liskov Substituion Principle      --> “Derived classes must be substitutable for their base classes” --> Obj of child must be able to replace base class object. --> All the base class methods must be applicable for the child class.
+I --> Interface Segregation Principle   --> “Client should not be forced to use Interface which is not relevant ot them”
+D --> Dependency Inversion Principle    --> “High-level modules should not depend on low-level modules. Both should depend on abstractions“

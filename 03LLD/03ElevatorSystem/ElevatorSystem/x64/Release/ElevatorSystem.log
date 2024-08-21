@@ -1,0 +1,95 @@
+﻿  Controller.cpp
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Dispatcher.hxx(11,12): error C2143: syntax error: missing ';' before '*'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Dispatcher.hxx(11,12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Dispatcher.hxx(11,24): error C2238: unexpected token(s) preceding ';'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Dispatcher.hxx(13,24): error C2061: syntax error: identifier 'Controller'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Dispatcher.hxx(15,21): error C2061: syntax error: identifier 'Controller'
+  Dispatcher.cpp
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Buttons.hxx(11,15): error C2143: syntax error: missing ';' before '*'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Buttons.hxx(11,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Buttons.hxx(11,27): error C2238: unexpected token(s) preceding ';'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Buttons.hxx(21,27): error C2061: syntax error: identifier 'Dispatcher'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Buttons.hxx(32,27): error C2061: syntax error: identifier 'Dispatcher'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Buttons.hxx(43,27): error C2061: syntax error: identifier 'Dispatcher'
+  ElevatorSystem.cpp
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(16,16): error C2143: syntax error: missing ';' before '*'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(16,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(16,23): error C2238: unexpected token(s) preceding ';'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(19,42): error C2061: syntax error: identifier 'InsidePanel'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(30,20): error C2061: syntax error: identifier 'InsidePanel'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(31,16): error C2143: syntax error: missing ';' before '*'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(31,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(31,28): error C2238: unexpected token(s) preceding ';'
+  Buttons.cpp
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(17,12): error C2065: 'LiftButton': undeclared identifier
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(17,23): error C2059: syntax error: '>'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(18,12): error C2065: 'DoorButton': undeclared identifier
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(18,23): error C2059: syntax error: '>'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(21,35): error C2065: 'LiftButton': undeclared identifier
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(21,16): error C2059: syntax error: '>'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(21,70): error C2065: 'DoorButton': undeclared identifier
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(24,39): error C2065: 'LiftButton': undeclared identifier
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(24,50): error C2059: syntax error: '>'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(25,12): error C2065: 'LiftButton': undeclared identifier
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(25,23): error C2059: syntax error: '>'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(27,32): error C2065: 'DoorButton': undeclared identifier
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(27,43): error C2059: syntax error: '>'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(28,12): error C2065: 'DoorButton': undeclared identifier
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(28,23): error C2059: syntax error: '>'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(34,12): error C2065: 'HallButton': undeclared identifier
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(34,23): error C2059: syntax error: '>'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(36,37): error C2065: 'HallButton': undeclared identifier
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(36,18): error C2059: syntax error: '>'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(39,37): error C2065: 'HallButton': undeclared identifier
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(39,48): error C2059: syntax error: '>'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(40,12): error C2065: 'HallButton': undeclared identifier
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Panels.hxx(40,23): error C2059: syntax error: '>'
+  Display.cpp
+  Door.cpp
+  Floor.cpp
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(16,16): error C2143: syntax error: missing ';' before '*'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(16,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(16,23): error C2238: unexpected token(s) preceding ';'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(19,42): error C2061: syntax error: identifier 'InsidePanel'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(30,20): error C2061: syntax error: identifier 'InsidePanel'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(31,16): error C2143: syntax error: missing ';' before '*'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(31,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(31,28): error C2238: unexpected token(s) preceding ';'
+  Lift.cpp
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Controller.hxx(13,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Controller.hxx(13,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Controller.hxx(13,15): error C2238: unexpected token(s) preceding ';'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Controller.hxx(21,18): error C2061: syntax error: identifier 'Lift'
+  Client.cpp
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(16,16): error C2143: syntax error: missing ';' before '*'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(16,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(16,23): error C2238: unexpected token(s) preceding ';'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(19,42): error C2061: syntax error: identifier 'InsidePanel'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(30,20): error C2061: syntax error: identifier 'InsidePanel'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(31,16): error C2143: syntax error: missing ';' before '*'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(31,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(31,28): error C2238: unexpected token(s) preceding ';'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Client.cpp(41,42): error C2039: 'getPanel': is not a member of 'Lift'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(8,7): message : see declaration of 'Lift'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Client.cpp(42,43): error C2039: 'getPanel': is not a member of 'Lift'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(8,7): message : see declaration of 'Lift'
+  LiftFactory.cpp
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(16,16): error C2143: syntax error: missing ';' before '*'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(16,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(16,23): error C2238: unexpected token(s) preceding ';'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(19,42): error C2061: syntax error: identifier 'InsidePanel'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(30,20): error C2061: syntax error: identifier 'InsidePanel'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(31,16): error C2143: syntax error: missing ';' before '*'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(31,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(31,28): error C2238: unexpected token(s) preceding ';'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\LiftFactory.cpp(41,20): error C2661: 'Lift::Lift': no overloaded function takes 3 arguments
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\LiftFactory.cpp(41,20): message : while trying to match the argument list '(Door *, Display *, InsidePanel *)'
+  Panels.cpp
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(16,16): error C2143: syntax error: missing ';' before '*'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(16,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(16,23): error C2238: unexpected token(s) preceding ';'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(19,42): error C2061: syntax error: identifier 'InsidePanel'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(30,20): error C2061: syntax error: identifier 'InsidePanel'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(31,16): error C2143: syntax error: missing ';' before '*'
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(31,16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\101ElevatorSystem\ElevatorSystem\Lift.hxx(31,28): error C2238: unexpected token(s) preceding ';'

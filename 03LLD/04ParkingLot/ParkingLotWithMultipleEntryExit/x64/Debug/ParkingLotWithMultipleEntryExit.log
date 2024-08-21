@@ -1,0 +1,12 @@
+﻿  Client.cpp
+  Display.cpp
+  Entry.cpp
+  Exit.cpp
+  ParkingFloor.cpp
+  ParkingLot.cpp
+C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\ParkingLot\ParkingLotWithMultipleEntryExit\ParkingLot.cpp(115,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  ParkingSlot.cpp
+  Ticket.cpp
+  VehicleInfo.cpp
+  Generating Code...
+  ParkingLotWithMultipleEntryExit.vcxproj -> C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\ParkingLot\x64\Debug\ParkingLotWithMultipleEntryExit.exe

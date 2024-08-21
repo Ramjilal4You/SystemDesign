@@ -1,0 +1,95 @@
+// Parking Lot System
+/*
+**	Requirements - 
+*	1. multiple floors, multiple type of parking spots
+*	2. multiple entry & exit
+*	3. charges - hourly
+
+**	Actors/Classes
+*	1. ParkingLot (Main class) <>-- (list of Floors, payment)
+*	2. Floor <>-- (ParkingSlot, , Display etc )
+*	3. ParkingSlot <>-- (ParkingSlotCategory, Vehicle)
+*	4. Payment
+*	5. Ticket
+*	6. Vehicle <>-- VehicleCategory
+*	7. ParkingSlotType
+* 
+**	Use case
+*	1. User can ask for parking ticket
+*	2. User can get/denied on the parking slot availablity
+*	3. User can park the vehicle
+*	4. User can pay the charges & go
+* 
+* 
+*/
+
+#include "ParkingLot.hxx"
+
+#include <iostream>
+using namespace std;
+
+ParkingLot* ParkingLot::instance = nullptr;
+mutex ParkingLot::mtx;
+
+ParkingLot::ParkingLot(string name, string address, vector<ParkingFloor*> floors) 
+{
+	ParkingLotName = name;
+	ParkingLotAddress = address;
+	floorList = floors;
+	cout << "ParkingLot Created : " << ParkingLotName << endl;
+}
+
+Ticket* ParkingLot::getParkingTicket(VehicleInfo* vehicle)
+{
+	ParkingSlot* slot = nullptr;
+	for (auto it : floorList) {
+		slot = it->getParkingSlotForVehicleAndPark(vehicle);
+		if (slot != nullptr)
+			break;
+	}
+	if (slot == nullptr) {
+		cout << "Parking is full\n\n";
+		return nullptr;
+	}
+
+	//TODO : make this thread safe
+	Ticket* ticket = new Ticket(slot, vehicle);
+
+	return ticket;
+}
+
+
+double ParkingLot::getParkingCharges(int parkingTime, ParkingSlotType slotType)
+{
+	double amount = 0.0;
+	if (slotType == TwoWheelerSlot) {
+		amount = parkingTime * 20;
+	}
+	else if (slotType == CompactSlot) {
+		amount = parkingTime * 40;
+	}
+	else if (slotType == MediumSlot) {
+		amount = parkingTime * 100;
+	}
+	else if (slotType == LargeSlot) {
+		amount = parkingTime * 200;
+	}
+	return amount;
+}
+
+double ParkingLot::getParkingChargeAndPay(Ticket* ticket)
+{
+	double amount = 0.0;
+	if (ticket) {
+		ticket->getParkingSlot()->removeVehicle();	//remove vehicle
+		double parkingDuration = ticket->getParkingDuration();
+		ParkingSlotType stype = ticket->getParkingSlot()->getParkingSlotType();
+		amount = getParkingCharges(parkingDuration, stype);
+		cout << "Leaving Vehicle : " << ticket->getVehicleInfo()->getVehicleNumber();
+		cout << "Parking Charge Paid Successfully : " << amount << endl;
+	}
+	else {
+		cout << "Not a Valid Ticket\n\n";
+	}
+	return amount;
+}

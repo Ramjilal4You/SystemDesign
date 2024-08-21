@@ -1,0 +1,8 @@
+﻿  AbstractLogger.cpp
+  Client.cpp
+  DebugLogger.cpp
+  ErrorLogger.cpp
+  InfoLogger.cpp
+  Logger.cpp
+  Generating Code...
+  LoggerFramework.vcxproj -> C:\Users\rm185559\OneDrive - NCR Voyix\Documents\rma6\MyYT\C_CPP_Projects\LLD_HLD\03LLD\05LoggerFramework\x64\Debug\LoggerFramework.exe
